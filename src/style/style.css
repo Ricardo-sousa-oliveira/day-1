@@ -1,0 +1,11 @@
+
+.col-md-12 {
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+.col-md-12 svg {
+    padding-left: 80px;
+    background-color: lightblue;
+    transform: matrix(0.866,0.5,-0.5,0.866,0,0);
+}

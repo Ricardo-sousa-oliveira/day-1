@@ -5,7 +5,10 @@
 
 }
 .col-md-12 svg {
-    padding-left: 80px;
+    margin-left: 80px;
     background-color: lightblue;
-    transform: matrix(0.866,0.5,-0.5,0.866,0,0);
+    transform:rotate(20deg);
+    transform:matrix(0.866,0.5,-0.7,0.866,0,0);
+    border-radius: 20%;
+
 }

@@ -1,14 +1,18 @@
-
-.col-md-12 {
+body {
     margin-top: 200px;
-    margin-left: 150px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.col-md-12 svg {
-    margin-left: 80px;
-    background-color: lightblue;
-    transform:rotate(20deg);
-    transform:matrix(0.866,0.5,-0.7,0.866,0,0);
-    border-radius: 20%;
-
+.steam {
+    position: relative;
+    transform: rotate(-30deg) skew(25deg) ;
+    transition: 0,5s;
+}
+.steam:hover svg:nth-child(4) {
+    transform: translate(100px, -100px);
+}
+.steam svg {
+    position: absolute;
+    transition: 0,5;
 }

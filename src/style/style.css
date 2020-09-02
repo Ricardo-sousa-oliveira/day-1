@@ -1,4 +1,4 @@
-body {
+body .row{
     margin-top: 200px;
     display: flex;
     justify-content: center;
@@ -7,12 +7,23 @@ body {
 .steam {
     position: relative;
     transform: rotate(-30deg) skew(25deg) ;
-    transition: 0,5s;
+    transition: 1s;
 }
-.steam:hover svg:nth-child(4) {
-    transform: translate(100px, -100px);
-}
-.steam svg {
+.steam a {
     position: absolute;
-    transition: 0,5;
+    transition: 1s;
 }
+.steam:hover a:nth-child(4) {
+    transform: translate(60px, -60px);
+}
+.steam:hover a:nth-child(3) {
+    transform: translate(40px, -40px);
+    opacity: 0,8;
+}
+.steam:hover a:nth-child(2) {
+    transform: translate(20px, -20px);
+    opacity: 0,6;
+}
+
+
+
